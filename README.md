@@ -39,7 +39,7 @@ Then I should recieve a message asking for a vaild input range: "That is not a v
 
 <h2>CLASS DIAGRAM</h2>
 
-![Chemicals](https://user-images.githubusercontent.com/70410161/120087131-73d5c300-c0b3-11eb-98e1-3f99463dea2b.jpeg)
+![Chemicals](https://github.com/haseebikram/PoolTesting/issues/1#issue-1152708982)
 
 <h2>CLASS DIAGRAM DESCRIPTION</h2>
 
