@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "PoolTesting",
+			"path": "."
+		},
+		{
+			"name": "main",
+			"path": "../PoolTest-master/app/src/main"
+		}
+	],
+	"settings": {}
+}
