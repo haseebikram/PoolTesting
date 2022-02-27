@@ -11,7 +11,7 @@ Chris Royce
 User inputs information about their pool's chemical levels. The app basically recommends you the amount you need with links to products.
 
 <h2>STORYBOARD</h2>
-![pool tester](https://user-images.githubusercontent.com/56894894/120109395-45013080-c137-11eb-8dbf-42044cb5614d.PNG)
+![pool tester](https://github.com/haseebikram/PoolTesting/issues/2#issue-1152722589)
 
 <h2>FUNCTIONAL REQUIREMENTS</h2>
 <h4>SCENARIO</h4>
