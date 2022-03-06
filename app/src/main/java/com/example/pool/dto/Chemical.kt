@@ -36,6 +36,7 @@ class Chemical(val name: String, val okRange: Array<Float>, val hoursCantSwim: F
     /**
      * @override toString function
      * @return chemical name and a small summary about the chemical
+     * future - add warning(s) for when/if chemicals are out of safe range based on MSDS
      */
     @Override
     override fun toString(): String {
