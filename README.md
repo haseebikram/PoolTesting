@@ -25,7 +25,7 @@ Given the app is making proper calculations:
 
 When I input a pH level of 5.0 & a pool size of 15000 gallons
 
-Then I should recieve proper guidance and chemical recommendations: "Your pH level is too low, add 4.5oz of dry acid to your pool. Do not swim for 8 hours after application."
+Then I should receive proper guidance and chemical recommendations: "Your pH level is too low, add 4.5oz of dry acid to your pool. Do not swim for 8 hours after application."
 
 <h4>ASSUMPTIONS</h4>
 Numbers are input in a float point format.
@@ -35,7 +35,7 @@ Given the app is making proper calculations:
 
 When I input a CYA value of -100
 
-Then I should recieve a message asking for a vaild input range: "That is not a valid input, please input a positive number in the range (range for chemical)."
+Then I should receive a message asking for a vaild input range: "That is not a valid input, please input a positive number in the range (range for chemical)."
 
 <h2>CLASS DIAGRAM</h2>
 
