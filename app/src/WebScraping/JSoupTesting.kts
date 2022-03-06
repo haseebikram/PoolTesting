@@ -1,3 +1,4 @@
+/**
 //Variable for website main link
 val wiki = "https://en.wikipedia.org"
 
@@ -64,3 +65,4 @@ fun extractMovieData(url: String): Movie? { // <1>
             }
     return movie
 }
+*/
