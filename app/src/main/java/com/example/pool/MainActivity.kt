@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.pool.dto.Chemical
 import com.example.pool.dto.Algae
 import com.example.pool.ui.main.MainViewModel
-//import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity() {
 

@@ -43,7 +43,7 @@ class Chemical(val name: String, val okRange: Array<Float>, val hoursCantSwim: F
         //may need to be modified for units
         var hour = "hours"
         if (this.hoursCantSwim == 1F) {
-            hour = "hour"
+            hour = "hour(s)"
         }
         if (this.hoursCantSwim > 0 ) {
             return this.name + "is a chemical with an acceptable range of " + this.okRange[0].toString() + " to " +
