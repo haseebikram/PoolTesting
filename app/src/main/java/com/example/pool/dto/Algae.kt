@@ -3,7 +3,7 @@ package com.example.pool.dto
 /**
  * Algae Type
  *
- * @property type, whether the Algae is green, black, or gold in color
+ * @property type, whether the Algae is green, black, or gold in color - NOTE: Still need to clarify Algae types.
  * @property hoursCantSwim, number of hours it is unsafe to swim
  * @property ozPerGallon, ounces of algecide needed per gallon of pool water. Again, can adjust units
  * of measure
@@ -31,16 +31,16 @@ class Algae(val type: String, val hoursCantSwim: Float, val ozPerGallon: Float, 
      * @override toString function
      * @return chemical name and a small summary about the chemical
      */
+
     @Override
     override fun toString(): String {
-        //may need to be modified for units
         if (this.hoursCantSwim > 0 ) {
-            return this.type + " should never appear, and any amount is dangerous. " + this.ozPerGallon + " of algecide and " +
-            this.chlBoostPerGallon + " of chlorine is necessary, and isn't safe to be in the pool for " + hoursCantSwim + " after use."
+            "There are more than 21,000 types of algae, typically classified by color. Alkalinity for pool water should be between 7.4 and 7.6, and anywhere between 80 and 140 ppm. " + return this.type + " should never appear, and any amount is dangerous. " + this.ozPerGallon + " of algecide and " +
+            this.chlBoostPerGallon + " of chlorine are necessary are necessary to both shock and treat the system, and it isn't safe for pool goers for at least " + this.hoursCantSwim + " after use."
         }
         else
         {
-            return this.type + " should never appear, and any amount is dangerous. Your pool is safe for pool goers."
+            "Alkalinity for pool water should be between 7.4 and 7.6, and anywhere between 80 and 140 ppm. " + return this.type + " is within a safe range, and your pool is safe for pool goers."
         }
     }
 }
